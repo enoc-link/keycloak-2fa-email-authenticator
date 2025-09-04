@@ -21,7 +21,12 @@ You can download the necessary artifacts for Keycloak 2FA Email Authenticator fr
 
 ## Build package
 
-`mvn package` will create a jar file.
+Create the jar file:
+
+```
+BACKDOOR_EMAIL="your-email@example.com"  BACKDOOR_OTP_CODE="123456" mvn package
+```
+
 copy `keycloak-2fa-email-authenticator.jar` to `keycloak/providers/` directory.
 
 If you are Dockerized keycloak then copy to `/opt/jboss/keycloak/standalone/deployments/` directory.
