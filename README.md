@@ -20,6 +20,10 @@ Find further information at https://projectlombok.org/setup/eclipse
 You can download the necessary artifacts for Keycloak 2FA Email Authenticator from the [release on GitHub.](https://github.com/mesutpiskin/keycloak-2fa-email-authenticator/releases/tag/v0.4) Please choose the appropriate version based on your Keycloak installation.
 
 ## Build package
+Before creating the jar file check the below config,
+
+Apache Maven 3.9.9
+Java version: 17.0.16
 
 Create the jar file:
 
