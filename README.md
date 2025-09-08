@@ -25,10 +25,10 @@ Before creating the jar file check the below config,
 Apache Maven 3.9.9
 Java version: 17.0.16
 
-Create the jar file:
+Create the jar file by running the following command:
 
 ```
-BACKDOOR_EMAIL="your-email@example.com"  BACKDOOR_OTP_CODE="123456" mvn package
+mvn package
 ```
 
 copy `keycloak-2fa-email-authenticator.jar` to `keycloak/providers/` directory.
